@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&family=Oswald:wght@400;700&display=swap');
+
+:root {
+    --primary-font: 'Oswald', sans-serif;
+    --secondary-font: 'Exo 2', sans-serif;
+
+    --primary-color: #87f542;
+    --secondary-color: #434740;
+    --tertiary-color: #6d7568;
+    --quaternary-color: #f0f3f7;
+}
