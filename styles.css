@@ -9,3 +9,7 @@
     --tertiary-color: #6d7568;
     --quaternary-color: #f0f3f7;
 }
+
+html {
+    scroll-behavior: smooth;
+}
