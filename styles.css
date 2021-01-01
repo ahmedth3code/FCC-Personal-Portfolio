@@ -4,12 +4,69 @@
     --primary-font: 'Oswald', sans-serif;
     --secondary-font: 'Exo 2', sans-serif;
 
-    --primary-color: #87f542;
-    --secondary-color: #434740;
+    --primary-color: #87f542; /* Background 1 */
+    --secondary-color: #434740; /* Background 2 */
     --tertiary-color: #6d7568;
-    --quaternary-color: #f0f3f7;
+    --quaternary-color: #f0f3f7; /* Font color */
 }
 
 html {
     scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#navbar {
+    background-color: var(--primary-color);
+    height: 50px;
+    font-family: var(--secondary-font);
+}
+
+#navbar-ul {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    list-style: none;
+    justify-content: flex-end;
+}
+
+.navbar-li {
+    width: 10%;
+    min-width: 99px;
+    height: 100%;
+}
+
+.navbar-link {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    color: var(--quaternary-color);
+    text-decoration: none;
+    font-size: 1.2em;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-link:hover {
+    background-color: var(--secondary-color);
+}
+
+@media (max-width: 360px) {
+
+    #navbar {
+        min-width: max-content;
+    }
+
+    #navbar-ul {
+        justify-content: center;
+    }
+
+    .navbar-li {
+        width: 30%;
+        min-width: 108px;
+    }
 }
