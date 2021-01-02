@@ -20,7 +20,11 @@ html {
     box-sizing: border-box;
 }
 
+/* Navbar  */
+
 #navbar {
+    position: fixed;
+    width: 100%;
     background-color: var(--primary-color);
     height: 50px;
     font-family: var(--secondary-font);
@@ -55,7 +59,40 @@ html {
     background-color: var(--secondary-color);
 }
 
+/* ********************************************** */
+
+/* Welcome section */
+
+#welcome-section {
+    display: flex;
+    height: 100vh;
+    padding: 50px;
+    background-color: var(--secondary-color);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#portfolio-title {
+    font-family: var(--secondary-font);
+    font-size: 500%;
+    color: var(--quaternary-color);
+    text-align: center;
+}
+
+#portfolio-sub-title {
+    font-family: var(--primary-font);
+    font-size: 150%;
+    color: var(--primary-color);
+    text-align: center;
+}
+
+
+/* ******************************************** */
+
 @media (max-width: 360px) {
+
+    /* Navbar */
 
     #navbar {
         min-width: max-content;
@@ -69,4 +106,18 @@ html {
         width: 30%;
         min-width: 108px;
     }
+
+    /* **************************************** */
+
+    /* Welcome section  */
+
+    #portfolio-title {
+        font-size: 350%;
+    }
+
+    #portfolio-sub-title {
+        font-size: 125%;
+    }
+
+    /* *************************************** */
 }
