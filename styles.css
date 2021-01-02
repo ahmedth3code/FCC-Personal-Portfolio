@@ -28,6 +28,9 @@ html {
     background-color: var(--primary-color);
     height: 50px;
     font-family: var(--secondary-font);
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 #navbar-ul {
@@ -90,11 +93,16 @@ html {
 
 /* ******************************************** */
 
+.project-img {
+    width: 100%;
+}
+
 @media (max-width: 360px) {
 
     /* Navbar */
 
     #navbar {
+        width: 100%;
         min-width: max-content;
     }
 
