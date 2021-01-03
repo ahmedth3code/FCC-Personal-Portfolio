@@ -151,7 +151,20 @@ html {
 
 /* ****************************************** */
 
-@media (max-width: 360px) { 
+@media (max-width: 650px) {
+
+    /* Project section */
+
+    .project-tile {
+        width: 40%;
+        margin: 15px 5%;
+    }
+
+    /* ************************************* */
+    
+}
+
+@media (max-width: 414px) { 
 
     /* Navbar */
 
