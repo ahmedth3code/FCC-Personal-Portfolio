@@ -146,6 +146,7 @@ html {
 
 #all-projects-button:hover {
     font-size: 200%;
+    transform: none;
 }
 
 /* ****************************************** */
