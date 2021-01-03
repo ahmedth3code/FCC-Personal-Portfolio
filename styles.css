@@ -8,6 +8,7 @@
     --secondary-color: #434740; /* Background 2 */
     --tertiary-color: #6d7568;
     --quaternary-color: #f0f3f7; /* Font color */
+    --quinary-color: #630ddb;
 }
 
 html {
@@ -95,13 +96,61 @@ html {
 
 /* Projects section */
 
+#projects {
+    display: flex;
+    padding: 50px 3%;
+    flex-wrap: wrap;
+    background-color: var(--tertiary-color);
+}
+
+.project-tile {
+    width: 29.3%;
+    margin: 0 2% 50px 2%;
+    margin-bottom: 50px;
+    box-shadow: 2px 2px 2px 2px var(--secondary-color);
+    transition: all 0.3s ease-in-out;
+}
+
+.project-tile:hover {
+    transform: scale(1.1);
+}
+
 .project-img {
     width: 100%;
 }
 
+.project-title {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    background-color: var(--secondary-color);
+    color: var(--quaternary-color);
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--secondary-font);
+}
+
+#all-projects-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: var(--quaternary-color);
+    font-family: var(--secondary-font);
+    text-decoration: none;
+    font-size: 150%;
+    background-color: var(--quinary-color);
+}
+
+#all-projects-button:hover {
+    font-size: 200%;
+}
+
 /* ****************************************** */
 
-@media (max-width: 360px) {
+@media (max-width: 360px) { 
 
     /* Navbar */
 
@@ -132,4 +181,13 @@ html {
     }
 
     /* *************************************** */
+
+    /* Project section */
+
+    .project-tile {
+        width: 80%;
+        margin: 15px auto;
+    }
+
+    /* ************************************* */
 }
