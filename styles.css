@@ -151,6 +151,46 @@ html {
 
 /* ****************************************** */
 
+/* Contact me section */
+
+#contact-me {
+    display: flex;
+    height: 400px;
+    flex-direction: column;
+    background-color: var(--secondary-color);
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0 0 0;
+}
+
+#contact-me-paragraph {
+    font-family: var(--secondary-font);
+    font-size: 300%;
+    color: var(--quaternary-color);
+    text-align: center;
+}
+
+#contact-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+#profile-link,
+.contact-link,
+#contact-number {
+    display: inline-block;
+    font-family: var(--secondary-font);
+    text-decoration: none;
+    font-size: 150%;
+    color: var(--quaternary-color);
+    margin: 15px;
+}
+
+/* ***************************************** */
+
 @media (max-width: 650px) {
 
     /* Project section */
@@ -175,6 +215,20 @@ html {
     }
 
     /* ************************************* */
+
+    /* Contact me section */
+
+    #contact-me-paragraph {
+        font-size: 200%;
+    }
+
+    #profile-link,
+    .contact-link,
+    #contact-number {
+        font-size: 100%;
+    }    
+
+    /* ************************************ */
     
 }
 
@@ -218,4 +272,22 @@ html {
     }
 
     /* ************************************* */
+
+    /* Contact me section */
+
+    #contact-me {
+        height: max-content;
+    }
+
+    #contact-me-paragraph {
+        font-size: 150%;
+    }
+
+    #profile-link,
+    .contact-link,
+    #contact-number {
+        font-size: 100%;
+    }    
+
+    /* ************************************ */
 }
