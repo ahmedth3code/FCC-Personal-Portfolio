@@ -140,12 +140,12 @@ html {
     color: var(--quaternary-color);
     font-family: var(--secondary-font);
     text-decoration: none;
-    font-size: 150%;
+    font-size: 140%;
     background-color: var(--quinary-color);
 }
 
 #all-projects-button:hover {
-    font-size: 200%;
+    font-size: 150%;
     transform: none;
 }
 
@@ -158,6 +158,20 @@ html {
     .project-tile {
         width: 40%;
         margin: 15px 5%;
+    }
+
+    .project-title {
+        font-size: 90%;
+    }
+
+    #all-projects-button {
+        margin: 15px auto;
+        padding: 10px;
+        font-size: 120%;
+    }
+
+    #all-projects-button:hover {
+        font-size: 120%;
     }
 
     /* ************************************* */
