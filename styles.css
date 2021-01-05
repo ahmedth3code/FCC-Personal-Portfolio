@@ -191,6 +191,30 @@ html {
 
 /* ***************************************** */
 
+/* Footer */
+
+#footer {
+    display: flex;
+    min-height: 50px;
+    padding: 5px 50px;
+    background-color: var(--secondary-color);
+    border-top: 5px solid var(--primary-color);
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    color: var(--quaternary-color);
+    font-family: var(--secondary-font);
+}
+
+#footer-message,
+#copyright-info {
+    font-size: 120%;
+    margin: 10px 10px;
+    text-align: center;
+}
+
+/* **************************************** */
+
 @media (max-width: 650px) {
 
     /* Project section */
