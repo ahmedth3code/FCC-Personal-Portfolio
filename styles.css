@@ -69,6 +69,7 @@ html {
 
 #welcome-section {
     display: flex;
+    /* width: max-content; */
     height: 100vh;
     padding: 50px;
     background-color: var(--secondary-color);
@@ -95,6 +96,13 @@ html {
 /* ******************************************** */
 
 /* Projects section */
+
+#projects-heading {
+    width: 100%;
+    margin: 0 2% 50px 2%;
+    font-family: var(--secondary-font);
+    color: var(--quaternary-color);
+}
 
 #projects {
     display: flex;
@@ -219,6 +227,10 @@ html {
 
     /* Project section */
 
+    #projects-heading {
+        margin: 15px 5%;
+    }
+
     .project-tile {
         width: 40%;
         margin: 15px 5%;
@@ -279,7 +291,7 @@ html {
     /* Welcome section  */
 
     #portfolio-title {
-        font-size: 350%;
+        font-size: 250%;
     }
 
     #portfolio-sub-title {
@@ -289,6 +301,11 @@ html {
     /* *************************************** */
 
     /* Project section */
+
+    #projects-heading {
+        margin: 15px auto;
+        font-size: 120%;
+    }
 
     .project-tile {
         width: 80%;
